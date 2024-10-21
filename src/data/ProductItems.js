@@ -11,7 +11,6 @@ import OfficeChairUsdz from "../assets/models/OfficeChair.usdz";
 import pot from "../assets/models/pot.glb";
 import potUsdz from "../assets/models/pot.usdz";
 import messy_Bed from "../assets/models/messy_Bed.usdz";
-import messy_bed from "../assets/models/messy_bed.glb";
 
 const productItems = [
   {
