@@ -1,4 +1,4 @@
-import "./App.css";
+import "./app.css";
 import "@google/model-viewer/dist/model-viewer.min.js";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import ProductList from "./components/ProductList/ProductList";
