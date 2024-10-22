@@ -32,11 +32,11 @@ const Feedback = () => {
     let comment = document.getElementById("comments").value;
 
     let body = "Name of the User: <br/>" + usersname + "<br/>" + "Email of the User: <br/>" + usersemail + "<br/><br/>" +
-      "What did you like most about AR-Webstore? <br/>" +
+      "What did you like most about Visualvista? <br/>" +
       likes +
-      "<br/><br/> Will our 3D and AR features improve your shopping experience if we integrate it on an online e-commerce store ?<br/>" +
+      "<br/><br/> Will our 3D features improve your shopping experience if we integrate it on an online e-commerce store ?<br/>" +
       improvement +
-      "<br/><br/> What are the other features that excite you to have them on AR-Webstore ?<br/>" +
+      "<br/><br/> What are the other features that excite you to have them on Visualvista ?<br/>" +
       feature +
       "<br/> <br/>Any other comments?<br/>" +
       comment;
@@ -45,11 +45,11 @@ const Feedback = () => {
 
     window.Email.send({
       Host: "smtp.elasticemail.com",
-      Username: "shwetkhatri2001@gmail.com",
+      Username: "jasub787@gmail.com",
       Password: "BAAF238142FDFE27699F12B3FC14B1A5C9F7",
-      To: "shwetkhatri2001@gmail.com",
-      From: "shwetkhatri2001@gmail.com",
-      Subject: "AR-Webstore has got a feedback",
+      To: "jasub787@gmail.com",
+      From: "jasub787@gmail.com",
+      Subject: "Visualvista has got a feedback",
       Body: body,
     }).then((message) => {
         if (message === "OK") {
@@ -82,12 +82,12 @@ const Feedback = () => {
         <input type="text" id="useremail" placeholder="Your Email..." />
         <br />
 
-        <label htmlFor="liked">What did you like most about AR-Webstore?</label>
+        <label htmlFor="liked">What did you like most about Visualvista?</label>
         <input type="text" id="liked" placeholder="I would Like to say..." />
         <br />
 
         <label htmlFor="improve">
-          Will our 3D and AR features improve your shopping experience if we
+          Will our 3D features improve your shopping experience if we
           integrate it on an online e-commerce store ?
         </label>
         <input type="text" id="improve" placeholder="I would Like to say..." />
@@ -95,7 +95,7 @@ const Feedback = () => {
 
         <label htmlFor="features">
           What are the other features that excite you to have them on
-          AR-Webstore ?
+          Visualvista ?
         </label>
         <input type="text" id="features" placeholder="I would Like to say..." />
         <br />

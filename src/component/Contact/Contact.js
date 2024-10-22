@@ -8,14 +8,14 @@ const Contact = () => {
       <h2>
         Reach out to Project Admin at{" "}
         <Link
-          to="https://www.linkedin.com/in/shwet-khatri-4ab216196/"
+          to="https://www.linkedin.com/in/jaspalsingh772/"
           target="_blank"
         >
           LinkedIn
         </Link>{" "}
         and{" "}
-        <Link to="mailto:shwetkhatri2001@gmail.com" target="_blank">
-          shwetkhatri2001@gmail.com
+        <Link to="mailto:jasub787@gmail.com" target="_blank">
+          jasub787@gmail.com
         </Link>
       </h2>
     </div>

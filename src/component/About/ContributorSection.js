@@ -3,8 +3,8 @@ import React, { useEffect, useState, useRef } from 'react';
 const ContributorSection = () => {
   const [contributors, setContributors] = useState([]);
   const contRef = useRef(null);
-  const owner = 'ShwetKhatri2001';
-  const repoName = 'AR-Webstore';
+  const owner = 'JASPAL70';
+  const repoName = 'Visualvista';
 
   useEffect(() => {
     if (contRef.current) {

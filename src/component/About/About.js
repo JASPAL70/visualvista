@@ -60,7 +60,7 @@ const About = () => {
         <>
             <div className="about-banner">
                 <div className="about-banner-front">
-                    <div className="aboutleft"><div className="aboutleftsec fromtop-anim">AR Webstore</div>
+                    <div className="aboutleft"><div className="aboutleftsec fromtop-anim">Visualvista</div>
                         <p className="abouleftseccont fade-effect">A web application for immersive augmented reality shopping experiences.</p></div>
 
                     <img src={gun} className="aboutrightsec" />
@@ -70,7 +70,7 @@ const About = () => {
 
             </div>
             <div>
-                <h1 className="second-head fromtop-anim">Why AR WEBSTORE ?</h1>
+                <h1 className="second-head fromtop-anim">Why Visualvista ?</h1>
                 <div className="prob-box">
                     <img src={img1} className="prob-img left-img-effect" />
                     <div className="about-prob fade-effect">
@@ -87,7 +87,7 @@ const About = () => {
 
                     <div className="about-prob fade-effect">
                         <p className="about-prob-header" style={{ "padding": "1vh", "width": "70%" }}><i>Solution</i></p>
-                        <p className="about-prob-sol2"> With AR-Webstore,customers can visualize products
+                        <p className="about-prob-sol2"> With Visualvista,customers can visualize products
                             in their own spaces and view all the virtual features more clearly. This empowers
                             customers to make informed decisions, reduces return rates, and enhances
                             engagement, resulting in a more satisfying and immersive shopping journey.</p>
@@ -160,7 +160,7 @@ const About = () => {
                 </div>
             </div>
             <div><h1 className="second-head fromtop-anim">Project Admin</h1>
-                <a href="https://github.com/ShwetKhatri2001"><div className="about-admin-box fade-effect"><img className="about-admin-img" src="https://avatars.githubusercontent.com/u/56475750?v=4" /><p className="about-admin">Shwet Khatri</p></div></a></div>
+                <a href="https://github.com/JASPAL70"><div className="about-admin-box fade-effect"><img className="about-admin-img" src="https://avatars.githubusercontent.com/u/56475750?v=4" /><p className="about-admin">Shwet Khatri</p></div></a></div>
             <div><h1 className="second-head fromtop-anim" style={{ "marginTop": "13vh" }}>Contributors</h1>
                 <p className="second-head fromtop-anim" style={{ "color": "blue" }}><b>Credits go to these contributors:</b></p>
                 <ContributorSection />

@@ -25,7 +25,7 @@ function Footer() {
 
         <div className="contact-content">
           <Link to="/feedback"> Feedback </Link>
-          <Link to="mailto:shwetkhatri2001@gmail.com" target="_blank">
+          <Link to="mail to:jasub787@gmail.com" target="_blank">
             Contact
           </Link>
           <Link to="/"> Tel: 123-456-7890 </Link>
@@ -33,18 +33,18 @@ function Footer() {
 
         <div className="contact-content">
           <Link
-            to="https://github.com/ShwetKhatri2001/AR-Webstore"
+            to="https://github.com/JASPAL70/visualvista"
             target="_blank"
           >
             GitHub
           </Link>
           <Link
-            to="https://www.linkedin.com/in/shwet-khatri-4ab216196/"
+            to="www.linkedin.com/in/jaspalsingh772"
             target="_blank"
           >
             LinkedIn
           </Link>
-          <Link to="https://twitter.com/shwetkhatri2001" target="_blank">
+          <Link to="https://x.com/Jaspal_singh0?t=_9J_69FwO98FGdXuricMRA&s=09" target="_blank">
             Twitter
           </Link>
         </div>
@@ -63,7 +63,7 @@ function Footer() {
         </form>
       </div>
       <div class="last">
-        <p>@ 2023 AR-Website | All Rights Reserved</p>
+        <p>@ 2024 visualvista | All Rights Reserved</p>
       </div>
     </div>
   );
