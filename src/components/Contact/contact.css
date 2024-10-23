@@ -1,0 +1,53 @@
+.err-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .err-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .err-container h2 {
+    font-size: 1.5rem;
+    color: #555;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .err-container a {
+    color: #0073b1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .err-container a:hover {
+    color: #005582;
+  }
+  
+  .err-container a:active {
+    color: #004160;
+  }
+  
+  .err-container a:focus {
+    outline: none;
+    border-bottom: 2px solid #0073b1;
+  }
+  
+  @media (max-width: 768px) {
+    .err-container h1 {
+      font-size: 2rem;
+    }
+  
+    .err-container h2 {
+      font-size: 1.2rem;
+    }
+  }

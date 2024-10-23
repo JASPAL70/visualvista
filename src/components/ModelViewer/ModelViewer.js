@@ -167,21 +167,6 @@ const ModelViewer = ({ item, addToWishlist, removeFromWishlist, wishlist }) => {
         </div>
 
       </model-viewer>
-        
-      <LazyLoad>
-        {/* Card content below the model-viewer */}
-        <div className="qr-sec">
-          {!ARSupported && (
-            <QRCode
-              id={item.name}
-              value={window.location.href}
-              size={110}
-              bgColor="#ffffff"
-              fgColor="#000000"
-              level="H"
-              includeMargin
-            />
-          )}
 
           <div className="product-details">
             <div>
@@ -197,15 +182,12 @@ const ModelViewer = ({ item, addToWishlist, removeFromWishlist, wishlist }) => {
                 </div>
               </div>
               <div>Rs. 1000</div>
-              {!ARSupported && <h5>Scan the QR code for AR View on mobile</h5>}
             </div>
             <button className="add-icon" onClick={handleAddToWishlist}>
               {isInWishlist ? '-' : '+'}
             </button>
           </div>
         </div>
-      </LazyLoad>
-    </div>
   );
 };
 
