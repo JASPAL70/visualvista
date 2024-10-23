@@ -10,6 +10,8 @@ import OfficeChair from "../assets/models/OfficeChair.glb";
 import OfficeChairUsdz from "../assets/models/OfficeChair.usdz";
 import pot from "../assets/models/pot.glb";
 import potUsdz from "../assets/models/pot.usdz";
+// import messybed from "../assets/models/Messy_bed.glb";
+// import iosmessybed from "../assets/models/messy_Bed.usdz";
 
 const productItems = [
   {
@@ -130,7 +132,7 @@ const productItems = [
       },
     ]
   },
-  {
+   {
     id: 6,
     name: "Sport Car",
     modelSrc: car1,
@@ -154,7 +156,6 @@ const productItems = [
         target: "-0.1053838m 0.01610652m 0.1076345m"
       },
     ]
-  },
-  
+  },  
 ];
 export default productItems;
