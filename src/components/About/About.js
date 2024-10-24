@@ -161,9 +161,9 @@ const About = () => {
             </div>
             <div><h1 className="second-head fromtop-anim">Project Admin</h1>
                 <a href="https://github.com/JASPAL70"><div className="about-admin-box fade-effect"><p className="about-admin">jaspal singh</p></div></a></div>
-            <div><h1 className="second-head fromtop-anim" style={{ "marginTop": "13vh" }}>Contributors</h1>
-                <p className="second-head fromtop-anim" style={{ "color": "blue" }}><b>Credits go to these contributors:</b></p>
-                <ContributorSection />
+             <div><h1 className="second-head fromtop-anim" style={{ "marginTop": "13vh" }}>Contributors</h1> 
+                 <p className="second-head fromtop-anim" style={{ "color": "blue" }}><b>Credits go to these contributors:</b></p> 
+                <ContributorSection /> 
 
 
                 {showScrollUpButton && (

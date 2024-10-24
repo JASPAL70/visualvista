@@ -1,10 +1,10 @@
 FROM node:18
 
-WORKDIR /ar-webstore/
+WORKDIR /visualvista/
 
-COPY public/ /ar-webstore/public
-COPY src/ /ar-webstore/src
-COPY package.json /ar-webstore/
+COPY public/ /visualvista//public
+COPY src/ /visualvista//src
+COPY package.json /visualvista//
 
 RUN npm install
 
