@@ -16,6 +16,15 @@ import ImageGallery from "./threeJs/ImageGallery";
 
 const App = () => {
   const [wishlist, setWishlist] = useState([]);
+  const App = () => {
+    return (
+      <div className="App">
+        <h1>3D Image Gallery</h1>
+        <ImageGallery />
+      </div>
+    );
+  };
+  
 
   const addToWishlist = (item) => {
     setWishlist([...wishlist, item]);
@@ -60,3 +69,4 @@ const App = () => {
 };
 
 export default App;
+
