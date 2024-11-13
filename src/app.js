@@ -11,7 +11,6 @@ import Feedback from "./components/Feedback/Feedback";
 import SignUp from "./components/SignUp/SignUp";
 import SignIn from "./components/SignIn/Signin";
 import WishList from "./components/Wishlist/WishList";
-import imageGallery from "./threeJs/ImageGallery";
 import { useState } from "react";
 import ImageGallery from "./threeJs/ImageGallery";
 
